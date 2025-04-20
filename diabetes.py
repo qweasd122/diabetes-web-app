@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
-import googleapiclient.discovery
 import os
 from flask import Flask, render_template
 from dotenv import load_dotenv
